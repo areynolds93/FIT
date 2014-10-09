@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/custom.css">
+<title>
+</title>
+
+</head>
+
+<body>
+
+<header>
+
+	<ul id="cssmenu">
+	<li class="active"><a class="scroll" href="#index">home</a></li>
+	<li><a class="scroll" href="#page2">1</a></li>
+	<li><a class="scroll" href="#page3">2</a></li>
+	<li><a class="scroll" href="#page4">3</a></li>
+	</ul>
+
+</header>
+
+<!-- Page -->
+
+
+
+<div class="page" id="index">
+<div class="section-left">
+<article>
+<h1>Favorite Internet Things</h1>
+
+<h2></h2>
+</article>
+</div>
+
+
+<div class="section-right">
+<article class="articlered">
+<h1>&lt;3</h1>
+
+</article>
+</div>
+</div>
+
+
+<!-- Page -->
+<div class="page" id="page2">
+<div class="section-left">
+<article>
+<a href="http://www.seedsandsmiles.com/">
+<h1>Seeds and Smiles</h1></a>
+<!--
+<h2>Image Graphic Goes Here
+</h2>
+-->
+</article>
+</div>
+
+
+<div class="section-right">
+<article>
+<h3>A Healthy Food Blog the showcases a variety of vegetarian and vegan options. My personal favorite section is the oatmeal porn. I have never seed oatmeal look so great.</h3>
+</a>
+</article>
+</div>
+</div>
+<!-- Page -->
+
+
+
+
+<div class="page" id="page3">
+
+<div class="section-left">
+<article>
+<a href="http://www.artistoftheyear.ca/">
+<h1>Artist of the Year</h1>
+<h2>
+</h2></a>
+</article>
+</div>
+
+
+<div class="section-right">
+<article>
+<h3>A website for a band called Artist of the Year. The website utilizes interesting animations and elements of atypical design in order to create a unique looking website. Some of the elements are distracting and I wish there was some consideration for the usability versus trying to create a website that eventually becomes difficult to use.</h3>
+
+
+</article>
+</div>
+
+
+</div>
+<div class="page" id="page4">
+
+<div class="section-left">
+<article>
+<a href="http://fantasticsmag.com/">
+<h1>Fantasticsmag</h1>
+<h2>
+</h2>
+</a>
+</article>
+</div>
+
+
+<div class="section-right">
+<article>
+<h3>A website the showcases beautiful fashion forward photos along with typeface</h3>
+</article>
+</div>
+
+
+</div>
+
+<!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <!-- slow scroll -->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+
+    <script>
+      $("header a.scroll").click(function(event){
+        event.preventDefault();
+        $('html,body').animate({scrollTop:$(this.hash).offset().top}, 700);
+      });
+   </script>
+   <!-- slow scroll -->
+   
+  <!--  highlight active a tag -->
+   		<script>
+   		
+   		$(document).ready(function() {
+    $("#cssmenu li").on("click", function() {
+        $("#cssmenu li").removeClass("active");
+        $(this).addClass("active");
+    });
+});
+   		</script>
+   <!--  highlight active a tag -->
+      
+ </body>
+</html>

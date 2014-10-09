@@ -1,0 +1,337 @@
+html {
+
+}
+body {
+	margin: 0;
+	background-color: gray;
+	height: 600px;
+	
+			
+}
+/*Navigation Start*/
+header {
+	background-color: #ffffff;
+	font-family: "letter gothic std", sans-serif;
+	color: #3a3a3a;
+	text-align: center;
+	width: 100%;
+	height: 75px;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+	
+	
+}
+header 
+ul {
+	padding: 15px;
+	
+}
+header
+li {
+	display: inline;
+	text-transform: uppercase;
+	position: relative;
+	
+}
+header
+li
+a {
+	padding: 10px;
+	padding-top: 100%;
+	padding-bottom: 27px;
+	position: relative;
+	
+
+	
+}
+
+header
+ul#cssmenu
+.active a {
+	background-color: gray;
+	color: white;
+}
+
+/*Navigation End*/
+
+
+
+/* General Page Format Start */
+.page {
+	background-color: red;
+	height: 100%;
+	width: 100%;
+	min-width: 800px;
+	line-height: 40px;
+	
+}
+article {
+	height: 90%;
+	width: 90%;
+	background-color: transparent;
+	font-family: helvetica;
+	text-transform: uppercase;
+	text-align: center;
+	display: inline-block;
+	padding-top: 10px;
+	min-width: 250px;
+	box-sizing: border-box;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+}
+article
+h1 { 
+	font-family: helvetica, sans-serif;
+	font-size: 45px;
+	line-height: 60px;
+	letter-spacing: 1px;
+	
+}
+article
+h2 {
+	font-size: 30px;
+}
+article
+h3 {
+	font-size: 20px;
+}
+article
+h4{
+	font-size: 13.33px;
+}
+
+/* General Page Format End */
+
+/* Index Page Format Start */
+#index {
+	text-align: center;
+}
+#index
+.section-left {
+	height: 100%;
+	width: 50%;
+    background-color: white;
+	margin-top: 70px;
+	font-family: helvetica;
+	text-transform: uppercase;
+	text-align: center;
+	float: left;
+	color: navy;
+	position: relative;
+	min-height: 30%;
+	background-color: yellow;
+	
+}
+#index
+h1 {
+	font-size: 40px;
+}
+
+#index
+.section-right {
+	height: 100%;
+	width: 50%;
+    background-color: aqua;
+    background-size: cover;
+	margin-top: 70px;
+	font-family: helvetica;
+	text-transform: uppercase;
+	text-align: center;
+	float: left;
+	color: green;
+	position: relative;
+	min-height: 30%;
+	
+	
+}
+/* Index Page Format End */
+
+
+/* Page2 Format Start */
+#page2 {
+	background-color: yellow;
+	
+}
+#page2
+.section-right {
+	height: 100%;
+	width: 50%;
+    background-color: pink;
+	font-family: helvetica;
+	text-transform: uppercase;
+	text-align: center;
+	float: left;
+	position: relative;
+	min-height: 30%;
+	
+	
+}
+#page2
+.section-left {
+	height: 100%;
+	width: 50%;
+    background-color: #6fff98;
+    background-size: cover;
+	font-family: helvetica;
+	text-transform: uppercase;
+	background-image: url(seedsandsmiles.png);
+	text-align: center;
+	float: left;
+	position: relative;
+	min-height: 30%;
+		
+	
+}
+#page2
+h1 {
+	background-color: rgba(0,0,0,0.5);
+}
+
+/* Page2 Format End */
+
+
+
+/* Page3 Format Start */
+
+
+#page3 {
+	background-color: green;
+}
+
+#page3
+.section-left {
+	height: 100%;
+	width: 50%;
+    background-color: #00ff96;
+	font-family: helvetica;
+	text-transform: uppercase;
+	text-align: center;
+	background-image: url(aoty_screenshot.png);
+	float: left;
+	position: relative;
+	min-height: 30%;
+		
+}
+#page3
+h1 {
+	background-color: rgba(0,0,0,0.5);
+}
+#page3
+.section-right {
+	height: 100%;
+	width: 50%;
+    background-color: aqua;
+	font-family: helvetica;
+	text-transform: uppercase;
+	text-align: center;
+	float: left;
+	position: relative;
+	min-height: 30%;
+	
+	
+}
+/* Page3 Format End */
+
+/* Page4 Format Start */
+#page4 {
+	background-color: purple;
+}
+#page4
+.section-right {
+	height: 100%;
+	width: 50%;
+    background-color: yellow;
+	font-family: helvetica;
+	text-transform: uppercase;
+	text-align: center;
+	float: left;
+	position: relative;
+	min-height: 30%;
+	
+}
+#page4
+.section-left {
+	height: 100%;
+	width: 50%;
+	font-family: helvetica;
+	text-transform: uppercase;
+	text-align: center;
+	float: left;
+	position: relative;
+	min-height: 30%;
+	background-color: #00fbff;
+	background-image: url(fantasticsmag.png);
+	
+}
+#page4
+ul{
+	list-style: none;
+	text-align: center;
+}
+#page4
+h1 {
+	background-color: rgba(0,0,0,0.5);
+}
+
+
+/* Page4 Format End */
+
+
+
+/* unvisited link */
+header
+a:link {
+    color: #3a3a3a;
+    text-decoration: none;
+}
+
+/* visited link */
+header
+a:visited {
+    color: #3a3a3a;
+   
+}
+
+/* mouse over link */
+header
+a:hover {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    background-color: gray;
+    font-style: oblique;
+}
+
+/* selected link */
+header
+a:active {
+    
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    background-color: gray;
+    font-style: oblique;
+
+}
+article
+a:link {
+    color: white;
+    text-decoration: none;
+	
+}
+article
+a:visited {
+	
+}
+
+article
+a:hover {
+	color:#ff009e
+}
+
+article
+a:active {
+	
+}
